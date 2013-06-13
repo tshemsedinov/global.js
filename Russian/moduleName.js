@@ -18,7 +18,7 @@
 		console.log('Исходный публичный метод toBeOverriden для модуля moduleName (будет переопределен)');
 	};
 
-	privateMethod = function() {
+	var privateMethod = function() {
 		console.log('Приватный метод privateMethod для moduleName');
 	};
 

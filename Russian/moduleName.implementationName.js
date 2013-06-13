@@ -22,7 +22,7 @@
 		console.log('Публичный метод перекрыт');
 	};  	
 
-	privateMethod = function() {
+	var privateMethod = function() {
 		console.log('Приватный метод не перекрыт');
 	};
 

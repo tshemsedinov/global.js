@@ -18,7 +18,7 @@
 		console.log('original toBeOverriden public method of moduleName to be overridden later');
 	};
 
-	privateMethod = function() {
+	var privateMethod = function() {
 		console.log('privateMethod of moduleName');
 	};
 

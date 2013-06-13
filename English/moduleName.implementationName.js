@@ -14,7 +14,7 @@
 		console.log('publicMethod of second declaration will overwrite publicMethod of first declaration');
 	};  	
 
-	privateMethod = function() {
+	var privateMethod = function() {
 		console.log('privateMethod of second declaration will not overwrite privateMethod of first declaration');
 	};
 
