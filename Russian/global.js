@@ -2,8 +2,7 @@
 // Должен быть загружен первым
 
 if (typeof(window) != 'undefined') window.global = window;
-
-global.isBrowser = typeof(exports) === 'undefined';
+global.isBrowser = !!global.window;
 global.isServer = !isBrowser;
 
 Function.prototype.override = function(fn) {
